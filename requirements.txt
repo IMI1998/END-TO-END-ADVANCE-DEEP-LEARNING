@@ -1,0 +1,4 @@
+# torch and triton are preinstalled on Kaggle GPU images with the matching CUDA build.
+# The script auto-installs lightning if missing, but pinning it here is cleaner.
+polars>=1.0
+lightning>=2.2
